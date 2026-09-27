@@ -21,14 +21,14 @@ const skills = [
 const works = [
   {
     title: "シフト管理アプリ",
-    description: "アルバイト先で実際に運用しているシフト提出・管理アプリです。スタッフはスマホからカレンダーで希望を提出し、管理者は一覧・提出状況の確認や定休日・スタッフの管理ができます。デモ版は架空データで自由に操作できます（管理画面パスワード: demo）。",
+    description: "アルバイト先で実際に運用している、シフトの提出・管理アプリです。スタッフはスマートフォンのカレンダー画面から希望シフトを提出でき、管理者はシフト一覧や提出状況の確認、定休日やスタッフの管理ができます。デモ版では架空のデータを使って自由に操作できます（管理画面のパスワード：demo）。",
     tags: ["Next.js", "React", "TypeScript", "Supabase", "Tailwind CSS", "Vercel"],
     demo: "https://shift-app-demo-sigma.vercel.app",
     repo: "https://github.com/dekopika11-glitch/shift-app-demo",
   },
   {
     title: "TypeChase（タイピングゲーム）",
-    description: "寿司打を参考にした日本語タイピングゲームです。直近の自分の平均速度から制限時間を毎回自動計算する仕組みや、shi/si・tsu/tuなどの表記揺れに対応した独自のローマ字判定を実装しました。",
+    description: "寿司打を参考にした日本語タイピングゲームです。寿司打で練習してもタイピング速度が伸び悩んだのは、慣れるにつれて制限時間に余裕ができ、ギリギリで打つ場面がなくなったからだと考えました。そこで、直近の自分の平均速度から問題ごとに制限時間を自動で計算し、常に自分の限界に近いペースで練習できる仕組みにしました。また、「shi/si」「tsu/tu」などの表記揺れに対応した、独自のローマ字判定も実装しています。",
     tags: ["JavaScript", "HTML", "CSS", "Web Audio API"],
     demo: "https://dekopika11-glitch.github.io/typing-chase/",
     repo: "https://github.com/dekopika11-glitch/typing-chase",
@@ -116,7 +116,7 @@ export default function HomePage() {
         <section className="mb-20">
           <h2 className="text-3xl font-bold mb-6 text-center text-blue-700">About Me</h2>
           <p className="text-lg text-gray-700 leading-relaxed bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
-            こんにちは！ 私は学生エンジニアのdekopikaです。小さい頃からプログラミングに興味を持ち、高専の情報系を卒業後もっと深く学びたいと考え大学へ編入学しました。現在はプログラミングのお仕事で学費を賄っています。将来的には高専の頃から続けている自動運転の研究で社会に貢献できるエンジニアを目指しています。
+            こんにちは！学生エンジニアのdekopikaです。幼い頃からプログラミングに興味を持ち、高専の情報系学科を卒業したあと、より深く学ぶために大学へ編入学しました。2027年4月からは大阪大学大学院に進学します。現在はプログラミングの仕事で学費を賄っています。将来は、高専時代から取り組んでいる画像解析や機械学習の知識を活かし、社会に貢献できるエンジニアを目指しています。
           </p>
         </section>
         

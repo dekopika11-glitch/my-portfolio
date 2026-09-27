@@ -2,7 +2,7 @@
 
 学生エンジニア dekopika の自己紹介・制作物紹介サイトです。
 
-**公開URL：** SITE_URL
+**公開URL：** https://my-portfolio-virid-nine-80.vercel.app
 
 ## 掲載している制作物
 
