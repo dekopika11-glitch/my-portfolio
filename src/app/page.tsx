@@ -2,7 +2,7 @@
 import Image from 'next/image';　
 
 // アイコンライブラリをインポート
-import { FiMail, FiGithub, FiLinkedin, FiExternalLink } from "react-icons/fi"; // 修正点: 未使用だったアイコンを追加
+import { FiMail, FiGithub, FiExternalLink } from "react-icons/fi";
 import { SiJavascript, SiReact, SiNextdotjs, SiPython, SiC, SiCplusplus} from "react-icons/si";
 import { FaFileExcel } from "react-icons/fa";
 import { TbBrandCSharp } from "react-icons/tb";
@@ -37,13 +37,13 @@ const works = [
     title: "ポートフォリオサイト",
     description: "Next.jsとTailwind CSSで作成した、この自己紹介サイトです。シンプルさと見やすさを重視しました。",
     tags: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
-    repo: "https://github.com/dekopika/my-portfolio",
+    repo: "https://github.com/dekopika11-glitch/my-portfolio",
   },
 ];
 
 // 修正点: アイコンをJSXタグ(<FiMail />)からコンポーネント(FiMail)に変更
 const socialLinks = [
-  { icon: FiGithub, href: "https://github.com/dekopika", colorClass: "hover:text-gray-800" }, // ★ あなたのリンクに変更
+  { icon: FiGithub, href: "https://github.com/dekopika11-glitch", colorClass: "hover:text-gray-800" },
   // { icon: FiLinkedin, href: "https://linkedin.com/in/your-username", colorClass: "hover:text-blue-700" }, // ★ あなたのリンクに変更
   { icon: FiMail, href: "mailto:dekopika11@gmail.com", colorClass: "hover:text-red-600" },
 ];
